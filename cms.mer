@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERDiagram version="1.1">
+  <Connection session="mysql" database="cms" />
+  <Drawing gridVisible="false" snapOn="false" fastRouting="false" labelsVisible="true" />
+  <Tables>
+    <Table name="bfan">
+      <Drawing expanded="true" location="-91,0" dimensions="183,128" />
+      <Columns>
+        <Column name="BFANID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DEPTID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="BH" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="code">
+      <Drawing expanded="true" location="-100,228" dimensions="201,308" />
+      <Columns>
+        <Column name="CODEID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="CODETYPEID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="3" />
+        </Column>
+        <Column name="CODENO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="2" />
+        </Column>
+        <Column name="CODENAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="VAL1" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="VAL2" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="NUM1" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="4" />
+        </Column>
+        <Column name="NUM2" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="4" />
+        </Column>
+        <Column name="NUM21" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="NUM22" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="NUM43" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,4" />
+        </Column>
+        <Column name="NUM44" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,4" />
+        </Column>
+        <Column name="STATE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="MEMO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="codetype">
+      <Drawing expanded="true" location="-110,636" dimensions="221,128" />
+      <Columns>
+        <Column name="CODETYPEID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="DECIMAL" size="3" />
+        </Column>
+        <Column name="CODETYPENAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="URL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="STATE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="MEMO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="cpimg">
+      <Drawing expanded="true" location="-94,864" dimensions="189,148" />
+      <Columns>
+        <Column name="CPIMGID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="IMGURL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="SCRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="cpwt">
+      <Drawing expanded="true" location="-92,1112" dimensions="185,248" />
+      <Columns>
+        <Column name="CPWTID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="KHID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="WT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="TCRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="JJRID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="HD" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="HDSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="KHMC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="dd">
+      <Drawing expanded="true" location="-95,1460" dimensions="190,548" />
+      <Columns>
+        <Column name="DDID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DDH" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="DDLX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="KHBH" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SHDZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="SHR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="YB" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="GDDH" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="SJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="YF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="SPSL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="SPZJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="GMRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="QWDHRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="FHRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="SJDHRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="YSFS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="FKFS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="SHFS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="JF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="DDZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="HDDQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="SHSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="QSSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="ddcz">
+      <Drawing expanded="true" location="-84,2108" dimensions="168,128" />
+      <Columns>
+        <Column name="ID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DDID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="CZR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="dept">
+      <Drawing expanded="true" location="-99,2336" dimensions="198,188" />
+      <Columns>
+        <Column name="DEPTID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="PDEPTID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="PDEPTNAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="DEPTNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="DEPTNAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="CODE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="STATE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="MEMO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="deptmenu">
+      <Drawing expanded="true" location="-101,2624" dimensions="203,88" />
+      <Columns>
+        <Column name="DEPTMENUID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MENUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DEPTID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="employee">
+      <Drawing expanded="true" location="-109,2812" dimensions="219,208" />
+      <Columns>
+        <Column name="EMPLOYEEID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DEPTID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DEPTNAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="EMPLOYEENAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="EMPLOYEENO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="PASSWORD" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="128" />
+        </Column>
+        <Column name="PHONE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="30" />
+        </Column>
+        <Column name="MEMO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="STATE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="employeemenu">
+      <Drawing expanded="true" location="-116,3120" dimensions="233,88" />
+      <Columns>
+        <Column name="EMPLOYEEMENUID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="EMPLOYEEID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MENUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="fkfs">
+      <Drawing expanded="true" location="-90,3308" dimensions="180,148" />
+      <Columns>
+        <Column name="FKFSID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="ZSJF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="MS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="gys">
+      <Drawing expanded="true" location="-89,3556" dimensions="178,228" />
+      <Columns>
+        <Column name="GYSID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="GYSNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="12" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="JM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="LXR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="PHONE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="EMAIL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="ADDR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="hd">
+      <Drawing expanded="true" location="-88,3884" dimensions="177,228" />
+      <Columns>
+        <Column name="HDID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="HDNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="JM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="LXR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="PHONE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="30" />
+        </Column>
+        <Column name="EMAIL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="ADDR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="kh">
+      <Drawing expanded="true" location="-90,4212" dimensions="180,468" />
+      <Columns>
+        <Column name="KHID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="EMAIL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="MM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="128" />
+        </Column>
+        <Column name="KHLXID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="XM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="CSRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="SEX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="SHENG" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SHI" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="ADDR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="SFZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="VIP" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="JF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="XFJE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="ZCRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="YE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="SJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="DHHM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="QQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="YB" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="khdz">
+      <Drawing expanded="true" location="-92,4780" dimensions="185,128" />
+      <Columns>
+        <Column name="KHDZID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="KH" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="DZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="DDSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="lm">
+      <Drawing expanded="true" location="-86,5008" dimensions="173,168" />
+      <Columns>
+        <Column name="LMID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="LMNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="JM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="CJRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="menu">
+      <Drawing expanded="true" location="-101,5276" dimensions="202,228" />
+      <Columns>
+        <Column name="MENUID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MENUNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="6" />
+        </Column>
+        <Column name="MENUNAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="URL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="PMENUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="PMENUNAME" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="MEMO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="STATE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="MENUTYPE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="OID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="pl">
+      <Drawing expanded="true" location="-84,5604" dimensions="168,168" />
+      <Columns>
+        <Column name="PLID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="KHID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="PL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="PLRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="provinces">
+      <Drawing expanded="true" location="-98,5872" dimensions="197,168" />
+      <Columns>
+        <Column name="PROID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="PRONAME" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="ROOTID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="CHILDS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="LAYERS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="SORTS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ISOPENS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="shfs">
+      <Drawing expanded="true" location="-90,6140" dimensions="180,128" />
+      <Columns>
+        <Column name="SHFSID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="MS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="sp">
+      <Drawing expanded="true" location="-84,6368" dimensions="169,548" />
+      <Columns>
+        <Column name="SPID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="12" />
+        </Column>
+        <Column name="SPLX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="PP" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="GG" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="SPXX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="DS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="XX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="CGJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="SCJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="SJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="VIPJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="SVIPJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="JF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ZK" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="ZKJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="KC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="KCXX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="XSLX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="XXL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="LRSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="SPLB" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SCCS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="spd">
+      <Drawing expanded="true" location="-87,7016" dimensions="175,228" />
+      <Columns>
+        <Column name="SPDID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="DDID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="KHID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="JG" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="XJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="ZSJF" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="spimg">
+      <Drawing expanded="true" location="-94,7344" dimensions="188,148" />
+      <Columns>
+        <Column name="SPIMGID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="IMGURL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="SCRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="splb">
+      <Drawing expanded="true" location="-87,7592" dimensions="175,168" />
+      <Columns>
+        <Column name="SPLBID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="PSPLBID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="JM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+        <Column name="WZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="1" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="tg">
+      <Drawing expanded="true" location="-90,7860" dimensions="181,308" />
+      <Columns>
+        <Column name="TGID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="BT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="NR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="YJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="XJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="TGRS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="KSRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="JZRQ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="TGZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="YHJE" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,2" />
+        </Column>
+        <Column name="TGZSRS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="wdsc">
+      <Drawing expanded="true" location="-93,8268" dimensions="186,168" />
+      <Columns>
+        <Column name="WDSCID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="WPID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SCSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="SCR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="SM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="wtlx">
+      <Drawing expanded="true" location="-88,8536" dimensions="177,88" />
+      <Columns>
+        <Column name="WTLXID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="LXMC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="SM" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="xx">
+      <Drawing expanded="true" location="-85,8724" dimensions="171,228" />
+      <Columns>
+        <Column name="XXID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="LMID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="XXNO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="10" />
+        </Column>
+        <Column name="BT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="GJZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="50" />
+        </Column>
+        <Column name="NR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="FBSJ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="FBR" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="zffs">
+      <Drawing expanded="true" location="-89,9052" dimensions="179,128" />
+      <Columns>
+        <Column name="ZFFSID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="MC" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="MS" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TEXT" size="65535" />
+        </Column>
+        <Column name="ZT" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DECIMAL" size="10,30" />
+        </Column>
+        <Column name="BZ" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="200" />
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Relationships />
+</ERDiagram>
+

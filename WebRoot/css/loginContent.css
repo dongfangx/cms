@@ -1,0 +1,353 @@
+
+
+
+.classification a:link,.classification a:visited 
+{
+    color:#5380df;
+    text-decoration:none;
+}
+.classification a:hover,.classification a:active 
+{
+    color:#C00;
+	text-decoration:underline;
+} 
+
+
+.position {
+	height:50px;
+	line-height:50px;
+	padding:0 30px;
+	font-size:14px;
+}
+.loginCon {
+	padding:5px 100px;
+	line-height:30px;
+}
+.loginCon table {
+	width:100%;
+	font-size:12px;
+}
+.borderLeft {
+	border-left:1px #ccc solid;
+}
+.btnBlueStyle {
+	padding-left:50px;
+}
+
+
+.loginCon .con {
+	padding:0 30px;
+}
+.loginCon .b1 {
+	padding:5px;
+	font-size:5px;
+}
+.color {
+	color:#eeac3e;
+	line-height:25px;
+}
+.indexLeft {
+	width:226px;
+}
+.indexTitleLeft {
+	background:url(../images/indexLeftTitle.png) no-repeat left top;
+	height:30px;
+	line-height:30px;
+	padding:0 10px 0 50px;
+	font-size:14px;
+}
+.floatLeft {
+	float:left;
+	display:inline;
+}
+.floatRight {
+	float:right;
+	display:inline;
+}
+
+.indexNotice {
+	height:140px;
+	border:1px #d7d7d7 solid;
+	padding:15px;
+	line-height:23px;
+}
+.marginTop {
+	margin-top:10px;
+}
+.indexNewGood {
+	min-height:140px;
+	border:1px #d7d7d7 solid;
+	padding:30px;
+	line-height:23px;
+}
+.indexNewGood table 
+{
+    width:100%;
+}
+.indexNewGood table img 
+{
+    width:75px;
+    height:85px;
+    border:1px #ccc solid;
+}
+.indexCenterMain 
+{
+    width:503px;
+}
+.indexCenterTitle 
+{
+    background:url(../images/indexCenterTitle.png) no-repeat left top;
+    height:30px;
+    line-height:30px;
+    padding:0 10px 0 40px;
+    font-size:14px;
+}
+.indexCenterContent 
+{
+    border:1px #e4e4e4 solid;
+    padding:3px 0;
+}
+.indexCenterContent table 
+{
+    width:100%;
+}
+.indexCenterContent table td 
+{
+    padding:3px 5px;
+}
+.tdWidth 
+{
+    width:100px;
+}
+.tdWidth2
+{
+    width:50px;
+}
+.trBG 
+{
+    background:#fff8e6;
+}
+.indexCenterPadding 
+{
+    padding:5px;
+}
+.indexCenterPadding img 
+{
+    width:70px;
+    height:70px;
+    border:1px #ccc solid;
+}
+.clearAll 
+{
+    clear:both;
+}
+.sellerActivity 
+{
+	border:1px #d7d7d7 solid;
+	padding:24px 5px;
+	*padding:10px 5px;
+	line-height:23px;
+}    
+.indexCenterPadding table td 
+{
+    padding:2px 5px;
+}
+.indexRightContent 
+{
+    width:206px;
+}
+.indexRightTitle 
+{
+    background:url(../images/indexRightTitle.png) no-repeat left top;
+    height:29px;
+    line-height:29px;
+    padding:0 5px 0 35px;
+    font-size:12px;
+}
+.more 
+{
+    float:right;
+    display:inline;
+    font-size:12px;
+}
+.sellerBtnLogin 
+{
+    background:url(../images/indexBtnLogin.png) center no-repeat;
+    border:0;
+    width:60px;
+    height:23px;
+    line-height:23px;
+    text-align:center;
+    font-size:12px;
+    cursor:pointer;
+}
+.inputPsw 
+{
+    width:102px;
+    *width:100px;
+}
+.indexRightContent table td 
+{
+    padding:5px 4px;
+}
+.hudong 
+{
+    border:1px #d7d7d7 solid;
+    height:77px;
+    line-height:25px;
+    padding:15px;
+}
+.hudong1 
+{
+    border:1px #d7d7d7 solid;
+    height:100px;
+    line-height:22px;
+    padding: 8px 10px 0px 20px;
+}
+.zixun 
+{
+    border:1px #d7d7d7 solid;
+    line-height:25px;
+    padding:15px;
+}
+.kuaidi
+{
+    border:1px #d7d7d7 solid;
+    line-height:25px;
+    padding:15px;
+    height:126px;
+    *height:105px;
+}
+.buyerInderLeftCon 
+{
+    height:140px;
+	border:1px #d7d7d7 solid;
+	padding:15px;
+	line-height:23px;
+}
+.Recommend 
+{
+    padding:5px;
+    *padding:2px 5px;
+    text-align:center;
+}
+.Recommend img 
+{
+    border:1px #ccc solid;
+    padding:3px;
+    width:90px;
+    height:75px;
+}
+.Recommend .order 
+{
+    color:#e75a09;
+}
+.productClassification 
+{
+    min-height:140px;
+	border:1px #d7d7d7 solid;
+	padding:15px;
+	line-height:23px;
+	*padding-top:18px;
+	height:750px;
+}
+.productClassification a 
+{
+    color:#f77225;
+}
+.productClassification h4 
+{
+    margin-top:10px;
+}
+.requirement{
+    border:1px #d7d7d7 solid;
+    line-height:26px;
+    text-align:center;
+}
+.requirement table
+{
+    width:100%;
+}
+.requirement table td 
+{
+    padding:0;
+}
+.requirement .btn 
+{
+    background:none;
+    color:#f77225;
+    border:0;
+    width:50px;
+    height:16px;
+}
+.classification
+{
+    background:#ffffe5;
+    border:1px #f90 solid;
+    padding:5px;
+    line-height:20px;
+}
+ 
+.classification span 
+{
+    padding-right:50px;
+    width:130px;
+}
+.classification table 
+{
+    width:100%;
+    text-align:left;
+}
+.classificationTitle 
+{
+    width:205px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    background:url(../images/indexTitleBg.png) center no-repeat;
+    font-size:14px;
+    border:1px #ccc solid;
+}
+.classificationSearch 
+{
+    width:185px;
+    border:1px #ccc solid;
+    padding:50px 10px;
+}
+.mainMar 
+{
+    margin-top:10px;
+}
+.rightTitleBg 
+{
+    background:#eee;
+    border:1px #ccc solid;
+    height:30px;
+}
+.classificationList 
+{
+    padding:5px;
+    border:1px #ccc solid;
+    margin-top:5px;
+}
+.classificationList img 
+{
+    border:1px #ccc solid;
+    padding:5px;
+    width:60px;
+    height:60px;
+}
+.classificationList label img {
+	border:0;
+    padding:0px;
+    width:95px;
+    height:35px;
+}	
+.classificationList table 
+{
+    width:100%;
+}
+.classificationList table td 
+{
+    padding:3px 10px;
+}

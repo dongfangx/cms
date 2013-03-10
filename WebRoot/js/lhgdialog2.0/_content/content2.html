@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>test</title>
+	<script type="text/javascript">
+var P = window.parent, D = P.loadinndlg();
+
+function openChild()
+{
+    D.lhgdialog.opendlg( '我是子窗口', '', 400, 300, true );
+}
+	</script>
+</head>
+
+<body>
+    <input type="button" value="打开子窗口" onclick="openChild();"/>
+</body>
+</html>

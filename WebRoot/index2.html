@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<script type="text/javascript" src="/cms/omui2/js/jquery.min.js"></script>
+<script type="text/javascript" src="/cms/omui2/js/operamasks-ui.min.js"></script>
+<script type="text/javascript" src="/cms/omui2/data.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/cms/omui2/css/default/om-default.css" />
+
+    <style>
+    	html, body{ width: 100%; height: 100%; padding: 0; margin: 0;}
+    	#north-panel{
+			background: url("images/header-bg.jpg") repeat-x scroll 0 0;
+			text-align: center;
+		}
+		#north-panel h2{
+			font-size: 18px;
+			font-weight: bold;
+			margin: 5px;
+		}
+		#center-frame{
+			width: 100%; height: 100%;
+		}
+    	
+    </style>
+
+   <script type="text/javascript">
+       $(document).ready(function() {
+           var element = $('body').omBorderLayout({
+          	   panels:[{
+           	        id:"north-panel",
+           	        region:"north",
+           	        header : false,
+           	        height : 40
+           	    },{
+          	        id:"center-panel",
+          	     	header:false,
+          	        region:"center"
+          	    },{
+          	        id:"west-panel",
+          	        resizable:true,
+          	        collapsible:true,
+          	        title:"<span style='color:red'><a url='center.jsp'>标题</a></span>",
+          	        region:"west",
+          	        width:150
+          	    }]
+           });
+           $("#mytree2").omTree({
+               dataSource : citydata,
+               onSelect: function(nodedata){
+               	if(!nodedata.children && nodedata.text){
+               		//避免在IE浏览器下出现中文乱码
+               		var url = encodeURI("cms/sys/menu/index");
+                   	$("#panel").omPanel('setTitle', nodedata.text);
+                   	document.getElementById('center-frame').src="/cms/sys/menu/index";
+/*                    	$("center-frame").
+                   	$("#panel").omPanel("reload" ,  "/cms/test.html");
+ */               	}
+               }
+           });
+           
+           $("#panel").omPanel({
+               width:'100%',
+               height:'100%',
+               header: true,
+               collapsed: false,
+               collapsible: false,
+               closable: false,
+               title : '什么是java',
+               url:'content2.html'
+           });
+           $(window).resize(function(){
+               $('#panel').omGrid("resize");
+           });
+       });
+   </script>
+
+</head>
+
+<body>
+	<!-- view_source_begin -->
+	<div id="north-panel">
+		<h2>XXX 监控平台</h2>
+	</div>
+	
+	<div id="center-panel">
+		<div id = "panel">
+			<iframe width="100%" height="100%" scrolling="auto" frameborder="0" src="center.jsp" id="center-frame"></iframe>
+		</div>
+	</div>
+	
+	<div id="west-panel">
+		<div><input type="button" text="search"/></div>
+		<ul id="mytree2"></ul>
+	</div>
+
+</body>
+</html>

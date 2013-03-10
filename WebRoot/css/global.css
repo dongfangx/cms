@@ -1,0 +1,572 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td
+	{
+	margin: 0;
+	padding: 0
+}
+
+body,button,input,select,textarea,table,td {
+	font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%
+}
+
+address,cite,dfn,em,var {
+	font-style: normal
+}
+
+code,kbd,pre,samp {
+	font-family: courier new, courier, monospace
+}
+
+small {
+	font-size: 12px
+}
+
+ul,ol {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+legend {
+	color: #000
+}
+
+fieldset,img {
+	border: 0
+}
+
+button,input,select,textarea {
+	font-size: 100%
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+	{
+	display: block;
+	margin: 0;
+	padding: 0
+}
+
+mark {
+	background: #ff0
+}
+
+body {
+	color: #333;
+	background:#FFF
+}
+
+a {
+	color: #266392;
+	text-decoration: none
+}
+
+a:hover {
+	color: #00a0e9;
+	text-decoration: none
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.invisible {
+	display: none
+}
+
+.transparent {
+	visibility: hidden
+}
+
+.undragable {
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none
+}
+
+.unfocusable {
+	outline: none;
+	*behavior: expression(( this.hideFocus = true)&&(this.behavior='none' )
+		)
+}
+
+#nav-bar li.lab s,.block span.block-hd,.block span.block-ft,.block span.block-hd span,.block span.block-ft span,.dotted li,s.new,s.hot
+	{
+	background: transparent
+		url(/images/common.png?t=20110222)
+		no-repeat scroll 21px 157px
+}
+
+.nice-title,.nice-title em {
+	background: transparent
+		url(/images/nice-title.png) no-repeat
+		scroll 300px 22px
+}
+
+#nav-bar,#nav-bar ul,#nav-bar li.selected,#nav-bar li.selected span {
+	background: transparent
+		url(/images/nav-bar.png) no-repeat
+		scroll 912px 152px;
+	_background-image:
+		url(/images/nav-bar.gif)
+}
+
+.nice-input-display {
+	background-color: #DDD
+}
+
+.block .block-bd {
+	border: 1px solid #c4d4dd;
+	background-color: #f9f9f9;
+	padding: 15px
+}
+
+.block span.block-hd,.block span.block-ft {
+	display: block;
+	position: relative;
+	height: 3px;
+	_overflow: hidden
+}
+
+.block span.block-hd span,.block span.block-ft span {
+	float: right;
+	width: 3px;
+	height: 3px
+}
+
+.block span.block-hd {
+	margin-bottom: -3px;
+	background-position: -2px -2px;
+	overflow: hidden
+}
+
+.block span.block-ft {
+	margin-top: -3px;
+	background-position: -2px 0;
+	overflow: hidden
+}
+
+.block span.block-hd span {
+	background-position: 0 -2px
+}
+
+.block span.block-ft span {
+	background-position: 0 0
+}
+
+.block .block-title {
+	position: relative;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #fff;
+	line-height: 15px;
+	_zoom: 1
+}
+
+.block h2 {
+	font-size: 14px;
+	border-bottom: 1px solid #c4d4dd;
+	height: 19px
+}
+
+.block h2 strong {
+	border-bottom: 2px solid #69cbf1;
+	line-height: 18px;
+	height: 18px;
+	position: absolute
+}
+
+.block .more {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 12px
+}
+
+.dotted li {
+	line-height: 24px;
+	margin-left: 6px;
+	padding-left: 9px;
+	background-position: -18px -48px;
+	vertical-align: middle
+}
+
+.dotted.black li {
+	background-position: -18px -65px
+}
+
+.dotted li.red {
+	background-position: -18px -82px
+}
+
+.dotted li.red,.dotted li.red a {
+	color: #d40000
+}
+
+.dotted li.red a:hover {
+	color: #dd5400
+}
+
+s.new,s.hot {
+	display: block;
+	width: 21px;
+	height: 9px;
+	overflow: hidden
+}
+
+s.new {
+	background-position: 0 -27px
+}
+
+s.hot {
+	background-position: 0 -37px
+}
+
+.nice-title {
+	line-height: 22px;
+	font-size: 14px;
+	color: #333;
+	padding: 3px 0 3px 7px;
+	background-position: 0 50%
+}
+
+.nice-title em {
+	padding: 3px 7px 3px 0;
+	background-position: 100% 50%
+}
+
+.nice-input {
+	line-height: 15px;
+	height: 15px;
+	padding: 1px
+}
+
+#header,#content,#footer {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden
+}
+
+.layout-main {
+	float: left;
+	margin-right: -314px;
+	width: 100%
+}
+
+.layout-main-wrap {
+	margin-right: 314px
+}
+
+.layout-side {
+	float: left;
+	width: 314px
+}
+
+.block .layout-main {
+	margin-right: -316px
+}
+
+.block .layout-main-wrap,.block .layout-side-wrap {
+	padding: 15px
+}
+
+.layout-column {
+	margin-bottom: 10px
+}
+
+body {
+	background-position: 0 -135px;
+	background-repeat: repeat-x
+}
+
+#top-bar {
+	position: relative;
+	height: 22px;
+	text-align: right
+}
+
+#top-bar ul {
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+#top-bar li {
+	float: left;
+	line-height: 22px;
+	line-height: 24px\0;
+	margin-left: 11px;
+	padding-left: 14px;
+	background-position: -18px -49px
+}
+
+#top-bar li.first {
+	margin-left: 0;
+	padding-left: 0;
+	background-image: none
+}
+
+#top-bar li.first a {
+	color: #266392;
+	margin: 0 3px
+}
+
+#top-bar a {
+	color: #758197
+}
+
+#logo {
+	height: 70px
+}
+
+#logo a.logo {
+	display: block;
+	float: left;
+	width: 520px;
+	height: 70px;
+	overflow: hidden
+}
+
+#logo a.cartoon {
+	display: block;
+	float: right;
+	background: url() left
+		bottom no-repeat;
+	width: 295px;
+	height: 70px;
+	overflow: hidden
+}
+
+#logo a.cartoon:hover {
+	background: url() left
+		top no-repeat;
+	border: none
+}
+
+#nav-bar {
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 56px;
+	margin-bottom: 3px;
+	background-position: 0 0;
+	overflow: hidden
+}
+
+#nav-bar ul {
+	background-position: 100% -38px
+}
+
+#nav-bar li {
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	background: url(/images/nav-bar.png) right
+		-155px no-repeat
+}
+
+#nav-bar li.selected {
+	background-position: 0 -76px
+}
+
+#nav-bar li.selected a {
+	color: #333;
+	display: inline-block
+}
+
+#nav-bar li.selected a:hover {
+	background: none;
+	border: none;
+	*line-height: 24px
+}
+
+#nav-bar li span {
+	display: block;
+	width: 92px;
+	height: 38px
+}
+
+#nav-bar li span a {
+	display: block;
+	color: #FFF;
+	width: 75px;
+	height: 23px;
+	line-height: 23px;
+	*line-height: 26px;
+	margin: 6px auto 0 auto
+}
+
+#nav-bar li span a:hover {
+	background: url(/images/nav-bar.png) left
+		-162px no-repeat;
+	cursor: pointer
+}
+
+#nav-bar li.selected span {
+	color: #333;
+	background-position: 100% -114px
+}
+
+#nav-bar li.lab {
+	float: right;
+	line-height: 34px;
+	padding-right: 10px;
+	background: none;
+	position: relative
+}
+
+#nav-bar li.lab a {
+	padding-left: 5px;
+	color: #FFF
+}
+
+#nav-bar li.lab s {
+	position: absolute;
+	top: 9px;
+	left: -20px;
+	background-position: 0 -10px;
+	width: 16px;
+	height: 16px
+}
+
+#crumb {
+	line-height: 25px;
+	margin-top: 10px
+}
+
+#crumb li {
+	float: left
+}
+
+#crumb li a {
+	color: #266392
+}
+
+#crumb li a:hover {
+	text-decoration: underline
+}
+
+#crumb li s {
+	color: #266392;
+	text-decoration: none;
+	margin: 0 3px
+}
+
+#faq-list .faq-row {
+	margin: 0 10px
+}
+
+#faq-list .faq-col {
+	float: left;
+	width: 50%;
+	overflow: hidden
+}
+
+#faq-list .faq-col ul {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 15px 0 15px 20px
+}
+
+#footer p {
+	margin: 34px 0;
+	line-height: 17px;
+	color: #9e9e9e;
+	text-align: center;
+	float: left;
+	width: 100%
+}
+
+#footer a {
+	color: #9e9e9e;
+	text-decoration: none
+}
+
+#footer a:hover {
+	color: #9e9e9e;
+	text-decoration: underline
+}
+
+.loginframe {
+	display: none
+}
+
+/* Flash Image*/
+div,a {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0px;
+}
+
+.imgsBox {
+	overflow: hidden;
+	width: 950px;
+	height: 300px;
+}
+
+.imgs a {
+	display: block;
+	width: 950px;
+	height: 288px;
+}
+
+.clickButton {
+	background-color: #888888;
+	width: 950px;
+	height: 12px;
+	position: relative;
+	top: -1px;
+	_top: -5px;
+}
+
+.clickButton div {
+	float: right;
+}
+
+.clickButton a {
+	background-color: #666;
+	border-left: #ccc 1px solid;
+	line-height: 12px;
+	height: 12px;
+	font-size: 10px;
+	float: left;
+	padding: 0 7px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.clickButton a.active,.clickButton a:hover {
+	background-color: #d34600;
+}

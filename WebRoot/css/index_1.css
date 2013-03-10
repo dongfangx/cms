@@ -1,0 +1,425 @@
+#banner #pcmgr-download,#banner #package-download {
+	background: transparent
+		url(http://pc1.gtimg.com/td/site/pcmgr/img/download-button.jpg)
+		no-repeat scroll 179px 318px
+}
+
+#banner #pcmgr-download-beta {
+	background: transparent
+		url(http://pc2.gtimg.com/td/site/pcmgr/img/banner-corner.jpg?t=20110219)
+		no-repeat scroll 190px 240px
+}
+
+#safety-system li s {
+	background: transparent
+		url(http://pc1.gtimg.com/td/site/pcmgr/img/pcmgr.png) no-repeat scroll
+		202px 450px
+}
+
+#safety-system .helper-safety s {
+	background-position: -145px -100px
+}
+
+#safety-system .grow-safety s {
+	background-position: -168px -100px
+}
+
+#banner {
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+#banner .download-trigger {
+	position: absolute;
+	display: block;
+	text-indent: -999em;
+	top: 210px;
+	width: 179px;
+	height: 53px;
+	overflow: hidden
+}
+
+#banner .release-info {
+	position: absolute;
+	top: 172px
+}
+
+#pcmgr-release,#pcmgr-download {
+	left: 292px
+}
+
+#banner #pcmgr-download:hover {
+	background-position: 0 0
+}
+
+#banner #pcmgr-download:active {
+	background-position: 0 -53px
+}
+
+#banner #package-download:hover {
+	background-position: 0 -106px
+}
+
+#banner #package-download:active {
+	background-position: 0 -159px
+}
+
+#package-release,#package-download {
+	left: 483px
+}
+
+#banner .release-info a.detail {
+	margin-left: 10px
+}
+
+#banner #pcmgr-download-beta {
+	top: 0;
+	right: 0;
+	width: 190px;
+	height: 120px
+}
+
+#banner #pcmgr-download-beta:hover {
+	background-position: 0 0
+}
+
+.block .block-bd {
+	padding: 0
+}
+
+#safety-trends .block-sub-title {
+	line-height: 24px
+}
+
+#trend-period {
+	margin-left: 160px
+}
+
+#trend-type {
+	margin-left: 180px
+}
+
+#safety-trends strong {
+	font-size: 14px
+}
+
+#trends-clip-container {
+	width: 604px;
+	height: 245px;
+	margin-bottom: 32px;
+	overflow: hidden
+}
+
+#trends-clip-container {
+	width: 604px;
+	height: 245px;
+	margin-bottom: 32px;
+	overflow: hidden;
+	text-align: center
+}
+
+#safety-monitor,#safety-news {
+	width: 284px;
+	overflow: hidden;
+	line-height: 24px
+}
+
+#safety-monitor ul,#safety-news ul {
+	margin-top: 3px
+}
+
+#safety-monitor li,#safety-news li {
+	overflow: hidden;
+	white-space: nowrap
+}
+
+#safety-monitor {
+	float: left
+}
+
+#safety-monitor em {
+	margin-right: 5px
+}
+
+#safety-news {
+	float: right
+}
+
+.tips_header {
+	float: left;
+	width: 594px;
+	background: #dfedf9;
+	height: 30px;
+	border: 1px solid #c4d4dd;
+	border-bottom: none;
+	border-right: none
+}
+
+.tab_header {
+	float: left;
+	width: 628px;
+	background: #dfedf9;
+	height: 30px;
+	border: 1px solid #c4d4dd;
+	border-bottom: none;
+	border-right: none
+}
+
+.more_header {
+	float: left;
+	width: 35px;
+	background: #dfedf9;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #c4d4dd;
+	border-bottom: none;
+	border-left: none
+}
+
+.tips_header  a,.tab_header  a {
+	display: inline-block;
+	float: left;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.tips_header .more a {
+	font-size: 12px;
+	line-height: 30px
+}
+
+.tips_header a:hover {
+	text-decoration: none
+}
+
+.tips_header a.set {
+	background: #f9f9f9;
+	height: 31px;
+	position: relative;
+	margin-bottom: -1px;
+	border-right: 1px solid #c4d4dd;
+	border-left: 1px solid #c4d4dd;
+	color: #333;
+	width: 98px
+}
+
+.tips_header a.left_line {
+	margin-left: -1px
+}
+
+.main_tips {
+	background: #f9f9f9;
+	border: 1px solid #c4d4dd;
+	width: 629px;
+	float: left
+}
+
+.layout-side-wrap {
+	height: 552px; *
+	height: 548px
+}
+
+#safety-info {
+	padding-bottom: 10px
+}
+
+.pic_info {
+	float: left;
+	width: 183px;
+	padding: 20px;
+	line-height: 24px
+}
+
+.pic_info span {
+	color: #266392
+}
+
+.text_info {
+	float: left;
+	padding-top: 20px;
+	width: 395px
+}
+
+.dotted li {
+	color: #266392
+}
+
+.left {
+	float: left;
+	width: 631px
+}
+
+.right {
+	float: right;
+	width: 309px
+}
+
+.dotted span {
+	float: right;
+	right
+}
+
+#mblog-updates {
+	line-height: 17px;
+	margin-bottom: 25px; *
+	margin-bottom: 19px
+}
+
+#mblog-updates li {
+	padding: 15px 0 15px 66px;
+	border-bottom: 1px dashed #e4e4e4
+}
+
+#mblog-updates li.first {border
+	
+}
+
+#mblog-updates li a.avatar {
+	float: left;
+	width: 52px;
+	height: 52px;
+	overflow: hidden;
+	margin-left: -61px
+}
+
+#mblog-updates li img {
+	border: 1px solid #d2d2d2;
+	width: 50px;
+	height: 50px
+}
+
+#mblog-updates li p.mblog {
+	float: left;
+	width: 100%;
+	height: 51px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+#mblog-updates li p.mblog a {
+	margin-right: 7px
+}
+
+#mblog-updates li p.detail {
+	float: right;
+	background-color: #f9f9f9;
+	margin-top: -18px
+}
+
+#safety-system ul {
+	line-height: 25px
+}
+
+#safety-system li {
+	float: left;
+	height: 25px;
+	margin: 4px 10px;
+	_margin: 4px 5px;
+	white-space: nowrap
+}
+
+#safety-system li s {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	_margin-right: 5px
+}
+
+#safety-system .safety-center s {
+	background-position: -45px -100px
+}
+
+#safety-system .safety-channel s {
+	background-position: -70px -100px
+}
+
+#safety-system .game-safety s {
+	background-position: -95px -100px
+}
+
+#safety-system .malsite-query s {
+	background-position: -120px -100px
+}
+
+#banner .title_pcmgr {
+	position: absolute;
+	text-indent: 5;
+	top: 166px;
+	left: 362px
+}
+
+#banner .title_pcmgr a {
+	padding-left: 5px
+}
+
+#banner .intro_pcmgr {
+	position: absolute;
+	text-indent: 5;
+	top: 185px;
+	left: 362px
+}
+
+#banner .download-pcmgr {
+	background: url("http://pc1.gtimg.com/qqxf/images/transparent.png")
+		repeat scroll 0 0 transparent;
+	color: #393939;
+	height: 53px;
+	left: 362px;
+	position: absolute;
+	top: 206px;
+	width: 179px
+}
+
+#banner .download-pcmgr:hover {
+	background:
+		url("http://s.pc.qq.com/pc/images/cf/bf/cfbf299e79db8765157769c526b2b048.jpg")
+		no-repeat scroll 0 -212px transparent
+}
+
+#banner .softintro_pcmgr {
+	display: block;
+	height: 25px;
+	position: absolute;
+	text-indent: 5;
+	left: 732px;
+	top: 270px
+}
+
+#banner .softintro_pcmgr a {
+	color: #fff
+}
+
+#banner .softintro_pcmgr a:hover {
+	color: #fff;
+	text-decoration: underline
+}
+
+#banner .download-test {
+	background:
+		url(http://s.pc.qq.com/pc/images/92/ea/92ea44f170e7cd22cc283a98b787d824.jpg)
+		no-repeat 0 -120px;
+	width: 190px;
+	height: 120px;
+	left: 760px;
+	top: 0;
+	position: absolute
+}
+
+#banner .download-test:hover {
+	background:
+		url(http://s.pc.qq.com/pc/images/92/ea/92ea44f170e7cd22cc283a98b787d824.jpg)
+		no-repeat 0 0;
+	width: 190px;
+	height: 120px;
+	left: 760px;
+	top: 0;
+	position: absolute
+}

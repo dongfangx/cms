@@ -1,0 +1,177 @@
+TD {
+	FONT-SIZE: 14px; WORD-BREAK: break-all
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+.p1 {
+	FONT-SIZE: 12px
+}
+DIV {
+	FONT-SIZE: 12px; LINE-HEIGHT: 130%
+}
+.p2 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 130%
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 130%
+}
+P {
+	FONT-SIZE: 14px; LINE-HEIGHT: 150%
+}
+.body {
+	MARGIN: 0px; TEXT-ALIGN: center
+}
+.HEAD {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; FILTER: progid:DXImagetransform.Microsoft.Glow(color=000000,strength=2); WIDTH: 70%; COLOR: #fff
+}
+.X_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px
+}
+.vsplit {
+	BORDER-TOP: #91abd3 1px solid
+}
+.Botton {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BACKGROUND: url(/news/images/search.gif); BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; WIDTH: 73px; PADDING-TOP: 2px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+}
+A.xgnews:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.xgnews:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.xgnews:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #f6ff00; TEXT-DECORATION: underline
+}
+A.xgnews:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #f6ff00; TEXT-DECORATION: underline
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.sqad:link {
+	FONT-SIZE: 12px; COLOR: #467902; TEXT-DECORATION: none
+}
+A.sqad:visited {
+	FONT-SIZE: 12px; COLOR: #467902; TEXT-DECORATION: none
+}
+A.sqad:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.sqad:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.qs:link {
+	FONT-SIZE: 12px; COLOR: #099161; TEXT-DECORATION: none
+}
+A.qs:visited {
+	FONT-SIZE: 12px; COLOR: #099161; TEXT-DECORATION: none
+}
+A.qs:active {
+	FONT-SIZE: 12px; COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.qs:hover {
+	FONT-SIZE: 12px; COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.cen:link {
+	FONT-SIZE: 14px; COLOR: #099161; TEXT-DECORATION: underline
+}
+A.cen:visited {
+	FONT-SIZE: 14px; COLOR: #099161; TEXT-DECORATION: underline
+}
+A.cen:active {
+	FONT-SIZE: 14px; COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.cen:hover {
+	FONT-SIZE: 14px; COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.toolink2:link {
+	FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.toolink2:visited {
+	FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.toolink2:active {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.toolink2:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.toplink3:link {
+	FONT-SIZE: 12px; COLOR: #1f3a87; TEXT-DECORATION: none
+}
+A.toplink3:visited {
+	FONT-SIZE: 12px; COLOR: #1f3a87; TEXT-DECORATION: none
+}
+A.toplink3:active {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.toplink3:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.xgxx:link {
+	FONT-SIZE: 14px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.xgxx:visited {
+	FONT-SIZE: 14px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.xgxx:active {
+	FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.xgxx:hover {
+	FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+#0 {
+	DISPLAY: none
+}
+#1 {
+	DISPLAY: none
+}
+#2 {
+	DISPLAY: none
+}
+#3 {
+	DISPLAY: none
+}
+#4 {
+	DISPLAY: none
+}
+#5 {
+	DISPLAY: none
+}
+#6 {
+	DISPLAY: none
+}
+#7 {
+	DISPLAY: none
+}
+#8 {
+	DISPLAY: none
+}
+#9 {
+	DISPLAY: none
+}
+.newslistdot {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 7px; COLOR: #555555
+}
+A.cen_new:link {
+	FONT-SIZE: 14px; COLOR: #1d1e1f; TEXT-DECORATION: underline
+}
+A.cen_new:visited {
+	FONT-SIZE: 14px; COLOR: #1d1e1f; TEXT-DECORATION: underline
+}
+A.cen_new:active {
+	FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.cen_new:hover {
+	FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: underline
+}

@@ -1,0 +1,360 @@
+@charset "utf-8";
+/*----------------------public style----------------------*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:12px;
+}
+a:link,a:visited {
+	color:#19afaf;
+	text-decoration:none;
+}
+a:active,a:hover {
+	color:#faaf19;
+	text-decoration:underline;
+}
+.centerMain{
+	width: 100%;
+	height: 100%;
+	background: #e1fafa;
+	}
+img {
+	border:0;
+}
+.alignLeft {
+	text-align:left;
+}
+.alignCenter {
+	text-align:center;
+}
+.alignRight {
+	text-align:right;
+}
+
+#ifr {
+	width: 100%;
+	height: 100%;
+}
+
+.wr80{
+	padding-right:10px;
+	text-align:right;
+	width: 80px;
+}
+
+.wr100{
+	padding-right:10px;
+	text-align:right;
+	width: 100px;
+}
+
+.w80{
+	width: 80px;
+}
+
+.w100{
+	width: 100px;
+}
+
+.w120{
+	width: 120px;
+}
+
+.w140{
+	width: 140px;
+}
+
+.w160{
+		width: 160px;
+	}
+	
+.w200{
+		width: 200px;
+	}	
+
+.width200 {
+	width: 200px;
+}
+.w205{
+	width: 205px;
+	}
+
+.w300 {
+	width: 300px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.w400 {
+	width: 400px;
+}
+
+.width400 {
+	width: 400px;
+}
+.w500 {
+	width: 500px;
+}
+.w600 {
+	width: 600px;
+}
+
+strong font {
+	color: #FF0000;
+}
+
+.sn{
+		width: 120px;
+	}
+/*----------------------header style----------------------*/
+.header {
+	background:url(../img/image/topRepeatX.png) left top repeat-x;
+}
+.logo {
+	background: url() left top no-repeat;
+}
+.rightImg {
+	background:url(../img/image/topRightImg.png) right top no-repeat;
+	height:33px;
+	height:40px\9;
+}
+.header ul {
+	padding-top:8px;
+	padding-right:50px;
+}
+.header ul li {
+	float:right;
+	display:inline;
+	margin-left:23px;
+}
+.header ul li a {
+	display:block;	
+	height:26px;
+	width:70px;
+}
+
+.btn4 {
+	background:url(../img/image/topBtn.png) -9px top no-repeat;
+	}
+.btn3 {
+	background:url(../img/image/topBtn.png) -92px top no-repeat;
+	}
+.btn2 {
+	background:url(../img/image/topBtn.png) -178px top no-repeat;
+	}
+.btn1 {
+	background:url(../img/image/topBtn.png) -264px top no-repeat;
+	}
+	
+.btnHover4 {
+	background:url(../img/image/topBtnHover.png) -9px top no-repeat;
+}
+.btnHover3 {
+	background:url(../img/image/topBtnHover.png) -92px top no-repeat;
+}
+.btnHover2 {
+	background:url(../img/image/topBtnHover.png) -178px top no-repeat;
+}
+.btnHover1 {
+	background:url(../img/image/topBtnHover.png) -264px top no-repeat;
+}
+	
+	
+/*----------------------aside style-----------------------*/
+.tdAsideBox {
+	background:url(../img/image/asideRepeatY.png) left top repeat-y;
+	width:4px;
+}
+.asideBox {
+	background:url(../img/image/asideRepeatY2.png) left top repeat-y;
+	width:160px;
+	/*height:600px;
+	min-height:600px;*/
+	vertical-align:top;
+}
+
+.switch_left {
+	background:url(../img/image/asideRepeatY.png) right top repeat-y;
+	vertical-align:middle;
+	width:8px;	
+}
+.switch_left img {
+	cursor:pointer;
+}
+
+.asideTitle {
+	background:url(../img/image/asideTitle.png) left top no-repeat;
+	width:160px;
+	height:32px;
+	line-height:32px;
+	color:#093e6f;
+}
+.redColor {
+	color:#F00;
+}
+.aside .titleNav,.aside .dtHover {
+	background:url(../img/image/asideTitle2.png) left top no-repeat;
+	padding-left:50px;
+	width:110px;
+	width:160px\9;
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+}
+.aside dl {
+	display:none;
+}
+.aside dd,.dd {
+	line-height:25px;
+	padding-left:55px;
+	background:url(../img/image/ddStyle.gif) 35px center no-repeat;
+	cursor:pointer;
+}
+.aside .ddHover {
+	background:url(../img/image/ddStyleHover.gif) 35px center no-repeat;
+	cursor:pointer;
+	color:#F00;
+}
+.aside .dtHover {
+	background:url(../img/image/asideTitle2Hover.png) left top no-repeat;
+}
+
+/*----------------------article style---------------------*/
+.articleBox {
+	vertical-align:top;
+	background:url(../img/image/article.png) right top repeat-y;
+}
+.position {
+	background:url(../img/image/position.png) left bottom repeat-x;
+	height:31px;
+	line-height:31px;
+	padding-left:10px;
+	color:#093e6f;
+}
+
+.position span {
+	display:block;
+	background:url(../img/image/ico.png) -5px center no-repeat;
+	padding-left:30px;
+}
+
+.tb_search {
+	height:28px;
+	text-align:left;
+	padding-top:3px;
+	padding-left:10px;
+}
+
+.btnBg {
+	background:url(../img/image/listTitle.png) left top repeat-x;
+	width:99%;
+	height:27px;
+	vertical-align:middle;
+	padding-top: 1px;
+	
+}
+.btnAll,.btn {
+	background:url(../img/image/btnTable.png) left top no-repeat;
+	width:82px;
+	height:19px;
+	line-height:19px;
+	vertical-align:middle;
+	border:0;
+	text-align:center;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+td {
+	border-collapse:collapse;
+}
+
+.theadBg {
+	height:16px;
+	background:url(../img/image/listHead.png) left top repeat-x #e9e9e9;
+}
+
+table.borderTable,table.borderTable tr td {
+	border:1px #CCC solid;
+	border-collapse:collapse;
+}
+table.borderTable tr td {
+	padding:3px 5px;
+	height:14px;
+	text-align:center;
+}
+
+table.alTable,table.alTable tr td {
+	border:1px #CCC solid;
+	border-collapse:collapse;
+	table-layout: fixed;
+}
+table.alTable tr td {
+	padding:3px 5px;
+	height:14px;
+	text-align:left;
+}
+
+.page {
+	border-left: solid 1px #BDBDBD;
+	border-right: solid 1px #BDBDBD;
+	border-bottom: solid 1px #BDBDBD;
+	text-align: center;
+	padding: 5px;
+	height: 20px;
+}
+
+.trclick{
+	background-color:#C4E1FF;
+}
+
+/*----------------------edit style---------------------*/
+table.bg {
+	background:#f1f6f9;
+	border:1px #ccc solid;	
+}
+
+table.bg tr td {
+	padding:5px;
+	border:1px #ccc solid;
+}
+
+table.info{
+	background:#f1f6f9;
+	border:1px #ccc solid;
+}
+
+table.info tr td{
+	padding:3px 5px;
+	height:15px;
+}
+table.info input{
+	overflow-x:visible;
+	overflow-y:visible;
+}
+table.info select{
+	width:100%;
+}
+
+/*----------------------article style---------------------*/
+
+/*----------------------footer style----------------------*/
+.footer {
+	background:url(../img/image/footerRepeatX.png) left bottom repeat-x;
+}
+.footerLeft {
+	background:url(../img/image/footerLeft.png) left bottom no-repeat;
+}
+.footerRight {
+	background:url(../img/image/footerRight.png) right bottom no-repeat;
+	height:18px;
+	padding-top:7px;
+}
+/*----------------------footer style----------------------*/

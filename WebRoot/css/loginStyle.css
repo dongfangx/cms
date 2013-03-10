@@ -1,0 +1,132 @@
+
+a:link,a:visited {
+	color:#000;
+	text-decoration:none;
+}
+a:active,a:hover {
+	color:#C00;
+	text-decoration:underline;
+}
+* {
+	margin:0;
+	padding:0;
+}
+h4 
+{
+    font-size:16px;
+}
+img {
+	border:0;
+}
+.topBody {
+	background:url(../images/bgLogo.png);
+	text-align:center;
+	font-size:12px;
+}
+body {
+	text-align:center;
+}
+.main {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	font-size:12px;
+}
+.centerMain {
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+	font-size:12px;
+	padding-top:10px;
+}
+.topHr {
+	background:#fdad32;
+	height:20px;
+	line-height:20px;
+	padding:0 20px;
+	text-align:right;
+}
+.topHr a {
+	color:#000;
+	text-decoration:none;
+}
+.topLogin {
+	background: url(../images/Logo.png) 20px 3px no-repeat;
+	padding:0 20px;
+}
+.btnHome {
+	padding-top:60px;
+	font-size:0;
+	text-align:right;
+}
+.title {
+	background:url(../images/bgTitle.png) repeat-x;
+	height:29px;
+	line-height:29px;
+	border:1px #fe8b30 solid;
+	padding:0 20px;
+}
+.bottomLogo {
+	background:url(../images/bottomLogo.png) 700px 0px no-repeat;
+	height:100px;
+	padding-top:10px;
+	line-height:25px;
+}
+hr {
+	border:0;
+	border-top:1px #eeac3e solid;
+	height:1px;
+}
+.bottomLogo a {
+	color:#000;
+	text-decoration:none;
+}
+.center 
+{
+    text-align:center;
+}
+.buyerSearchBg 
+{
+    background:url(../images/buyerBannerBg.png) center no-repeat;
+    width:960px;
+    height:70px;
+}
+.buyerSearchBg .search 
+{
+    padding:12px 20px;
+}
+.buyerSearchBg .btn 
+{
+    background:url(../images/searchBtn.png) center no-repeat;
+    width:62px;
+    height:20px;
+    text-align:center;
+    line-height:20px;
+    font-size:12px;
+    border:0;
+    cursor:pointer;
+}
+.buyerSearchBg .shop 
+{
+    background:url(../images/shop.gif) 0 0 no-repeat;
+    margin-left:20px;
+    padding-left:30px;
+    font-size:15px;
+}
+.buyerSearchBg .shop a 
+{
+    color:#fff;
+    text-decoration:underline;
+}
+.buyerSearchBg .hot 
+{
+    height:23px;
+    line-height:23px;
+    margin-top:2px;
+    *margin-top:0px;
+    padding-left:20px;
+}
+.clear 
+{
+    clear:both;
+}

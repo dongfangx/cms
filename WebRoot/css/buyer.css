@@ -1,0 +1,248 @@
+* 
+{
+    margin:0;
+    padding:0;
+}
+.buyerPosition 
+{
+    height:25px;
+    line-height:25px;
+    padding-bottom:10px;
+    text-align:left;
+}
+.mainLeftList 
+{
+    float:left;
+    display:inline;
+    width:169px;
+}
+.mainLeftList .topTitle 
+{
+    background:url(../images/mainLeftTitle.png) left top no-repeat;
+    height:30px;
+    line-height:30px;
+    padding-left:45px;
+    font-weight:600;
+    color:#fff;
+}
+.mainLeftList .bottomTitle 
+{
+    background:url(../images/mainLeftBottom.png) left top no-repeat;
+    height:35px;
+}
+.mainLeftList dl 
+{
+    margin-top:5px;
+    border:1px #e6e6e6 solid;
+}
+.mainLeftList dl dt 
+{
+    background:url(../images/mainListBg.png) left top no-repeat;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    font-weight:600;
+}
+.mainLeftList dl dd 
+{
+    background:url(../images/mainListBg.png) left bottom no-repeat;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+}
+.mainConRight 
+{
+    float:right;
+    display:inline;
+    width:780px;
+}
+
+.mainRightMain
+{
+    width:954px;
+    font-size:12px;
+    text-align:center;
+}
+.mainRightMain .title 
+{
+    background:url(../images/mainRightTitle.png) left top repeat-x;
+    height:29px;
+    border:1px #ccc solid;
+    padding-left:20px;
+    line-height:29px;
+    margin-top:5px;
+}
+
+.mainRightMain table 
+{
+    width:100%;
+    border-bottom:1px #ccc solid;
+    border-left:1px #ccc solid;
+    margin-top:3px;
+}
+.mainRightMain table thead 
+{
+    background:#eee;
+   
+}
+.mainRightMain table thead tr td
+{
+     padding:4px 3px;
+     height:20px;
+}
+.mainRightMain table td 
+{
+    border-top:1px #ccc solid;
+    border-right:1px #ccc solid;
+    padding:3px;
+    height:25px;
+    text-align:center;
+}
+.mainRightMain1
+{
+    width:754px;
+    font-size:12px;
+    text-align:center;
+}
+.mainRightMain1 .title 
+{
+    background:url(../images/mainRightTitle.png) left top repeat-x;
+    height:29px;
+    border:1px #ccc solid;
+    padding-left:20px;
+    line-height:29px;
+    margin-top:5px;
+}
+
+.mainRightMain1 table 
+{
+    width:100%;
+    border-bottom:1px #ccc solid;
+    border-left:1px #ccc solid;
+    margin-top:3px;
+}
+.mainRightMain1 table thead 
+{
+    background:#eee;
+   
+}
+.mainRightMain1 table thead tr td
+{
+     padding:4px 3px;
+     height:20px;
+}
+.mainRightMain1 table td 
+{
+    border-top:1px #ccc solid;
+    border-right:1px #ccc solid;
+    padding:3px;
+    height:25px;
+    text-align:center;
+}
+.dfdfd table,.dfdfd table td {
+	border:0;
+	height:0px;
+}
+.rightMainNoneBgBtn 
+{
+    background:none;
+    border:0;
+    color:#e74610;
+    width:70px;
+    height:20px;
+    cursor:pointer;
+}
+.floatLeft {
+	float:left;
+	display:inline;
+}
+.floatRight {
+	float:right;
+	display:inline;
+}
+.allBtn
+{
+    border:0;
+    width:88px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    font-size:12px;
+    cursor:pointer;
+}
+.thumbnail 
+{
+    width:50px;
+    height:50px;
+    text-align:center;
+}
+.thumbnail img 
+{
+    width:50px;
+    height:50px;
+    border:1px #ccc solid;
+}
+i 
+{
+    color:#f00;
+}
+h3 
+{
+    background:#ccc;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:16px;
+    font-weight:500;
+}
+.xiangxi 
+{
+    padding:30px 0 10px 50px;
+}
+.bigImg img
+{
+    width:270px;
+    height:270px;
+    padding:10px;
+    border:1px #ccc solid;
+}
+.xiangxiTitle 
+{
+    width:203px;
+    height:33px;
+    line-height:33px;
+    background:url(../images/xianshiBg.png) left top no-repeat;
+    padding-left:60px;
+    font-size:12px;
+    margin-top:5px;
+}
+.xiangxiCon 
+{
+    border:1px #ccc solid;
+    padding:10px;
+    line-height:25px;
+    width:241px;
+}
+.dizhiTitle 
+{
+    background:url(../images/titleBg.png) repeat-x bottom;
+    height:35px;
+    text-align:center;
+    color:#a2b6ce;
+    font-family:@Adobe ºÚÌå Std R;
+    font-size:15px;
+}
+.fjakltitle 
+{
+    background:#eee; padding:5px; height:16px; line-height:16px; text-align:left;
+    border:1px #ccc solid;
+    margin:2px;
+}
+.orderTijiao img
+{
+    width:80px;
+    height:80px;
+    padding:5px;
+    margin:5px;
+    border:1px #ccc solid;
+}
